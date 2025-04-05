@@ -1,1 +1,16 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/kl-E8VQf)
+
+# Trabajo Práctico 1 - Lenguaje C y Git
+
+## Ejercicio 2 - Repaso de punteros
+
+### a) Investigación sobre el archivo `.gitignore`
+
+**¿Por qué es conveniente incluirlo?**  
+El archivo `.gitignore` es útil porque permite **excluir archivos o carpetas** que no queremos subir al repositorio, como archivos temporales, binarios, archivos de configuración local, etc. Esto mantiene el repositorio más limpio y evita compartir archivos innecesarios o privados.
+
+**¿Cuándo se debe hacer?**  
+El `.gitignore` se debe crear al **inicio del proyecto**, antes de hacer los primeros commits, para asegurarse de que los archivos que deben ignorarse nunca lleguen al repositorio.
+
+**¿Cómo configuraría el archivo `.gitignore`?**  
+Se configura agregando el nombre del archivo o carpeta que se quiere ignorar, por ejemplo:
