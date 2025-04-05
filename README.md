@@ -18,3 +18,11 @@ ignorado.txt # Ignora un archivo específico
 _.log # Ignora todos los archivos con extensión .log
 build/ # Ignora una carpeta completa
 _.exe # Ignora archivos ejecutables
+
+### Preguntas sobre punteros
+
+Los puntos 2 y 3 del inciso e) dan el mismo resultado porque ambos muestran la dirección de memoria de la variable `numero`.
+
+En el punto 4, se muestra la dirección de memoria del puntero en sí, que es distinta, porque es una variable diferente almacenada en otra posición.
+
+Esto demuestra cómo los punteros almacenan direcciones de otras variables.
