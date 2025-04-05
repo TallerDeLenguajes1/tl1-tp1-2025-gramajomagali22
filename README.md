@@ -2,7 +2,7 @@
 
 # Trabajo Práctico 1 - Lenguaje C y Git
 
-## Ejercicio 2 - Repaso de punteros
+## Ejercicio 2
 
 ### a) Investigación sobre el archivo `.gitignore`
 
@@ -14,3 +14,7 @@ El `.gitignore` se debe crear al **inicio del proyecto**, antes de hacer los pri
 
 **¿Cómo configuraría el archivo `.gitignore`?**  
 Se configura agregando el nombre del archivo o carpeta que se quiere ignorar, por ejemplo:
+ignorado.txt # Ignora un archivo específico
+_.log # Ignora todos los archivos con extensión .log
+build/ # Ignora una carpeta completa
+_.exe # Ignora archivos ejecutables
